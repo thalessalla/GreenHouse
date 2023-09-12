@@ -47,6 +47,7 @@ const Energia = () => {
   const [historicos, setHistoricos] = useState([]);
   const [watts, setWatts] = useState([]);
 
+
   useEffect(() => {
     const db = firebase.database();
 
@@ -114,10 +115,7 @@ const Energia = () => {
       Alert.alert('Erro:', 'Insira um valor numérico válido.');
     }
   }
-  //const valorReaisTotal = valor * consumoTotal;
- 
 
-  // render() {
 
   return (
     <ScrollView>
@@ -160,7 +158,7 @@ const Energia = () => {
 
 
          <View style={estilos.containerTarifa}>
-      <Text style={estilos.textoLeituras}>Digite o valor da tarifa eletrica</Text>
+      <Text style={estilos.textoLeituras}>Digite o valor da tarifa elétrica</Text>
       <TextInput
         placeholder="Digite aqui"
         keyboardType="numeric"
@@ -235,28 +233,7 @@ const Energia = () => {
  );
 }
 
-// }
+
 
 export default Energia;
 
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//     padding: 16,
-//   },
-//   label: {
-//     fontSize: 18,
-//     marginBottom: 8,
-//   },
-//   input: {
-//     width: '100%',
-//     height: 40,
-//     borderWidth: 1,
-//     borderColor: 'gray',
-//     borderRadius: 4,
-//     paddingHorizontal: 8,
-//     marginBottom: 16,
-//   },
-// });
