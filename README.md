@@ -1,6 +1,6 @@
-//# GreenHouse
+
 <p align="center">
-  <img alt="" src="my-app/src/my_assets/greenhouse-img.png" width="100%">
+  <img alt="" src="/src/my_assets/greenhouse-img.png" width="100%">
 </p>
 
 ## 💻 Projeto
@@ -38,7 +38,7 @@ Os dados históricos são registrados e exibidos graficamente para que os usuár
 <br>
 
 <p align="center">
-  <img alt="" src="my-app/src/my_assets/greenhouse.gif" width="100%">
+  <img alt="" src="/src/my_assets/greenhouse.gif" width="100%">
 </p>
 
 <br>
