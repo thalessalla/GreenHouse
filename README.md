@@ -44,6 +44,11 @@ Os dados históricos são registrados e exibidos graficamente para que os usuár
 <br>
 <br>
 
+## Código do Esp32
+
+O código para a parte do hardware do progama se encontra <a href="https://github.com/thalessalla/greenhouse-esp32">neste repositório.</a>
+
+<br>
 
 ## 🚀 Tecnologias
 
